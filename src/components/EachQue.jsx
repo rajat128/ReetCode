@@ -59,7 +59,10 @@ function EachQue({}) {
               <MenuItem
                
                 bg={ "gray.800" }
+               _hover={{
                
+                  bg: "gray.700",
+                }}
                onClick={logout}
                 className="text-white"
               >
