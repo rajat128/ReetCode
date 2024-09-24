@@ -23,7 +23,7 @@ function SubPart({ title, accept, diff, company }) {
   return (
  
     <div className="table-row border-2 hover:bg-slate-200 hover:rounded">
-      <div className="table-cell py-2 max-sm:pl-0 pl-5 hover:cursor-pointer" onClick={()=>navigate(`/q/${t}`)}>{ title}</div>
+      <div className="table-cell py-2 max-sm:pl-0 pl-5 hover:cursor-pointer " onClick={()=>navigate(`/q/${t}`)}>{ title}</div>
       <div className="table-cell py-2">{accept}</div>
       <div className={`${diff=="Easy"?"text-green-500":diff=="Medium"?"text-yellow-500":"text-red-500"} table-cell py-2 font-semibold `}>{diff}</div>
       <div className="table-cell py-2">{company}</div>
@@ -40,7 +40,7 @@ function Allquestions() {
     <>
     {isAuthenticated?<div className="py-2 max-sm:px-2  border-black">
       <nav className="flex justify-between max-sm:px-0 px-10 w-full text-black ">
-        <img src='https://img.atcoder.jp/assets/atcoder.png' className='rounded-full h-16' onClick={()=>navigate("/")}></img>
+        <img src='https://img.atcoder.jp/assets/atcoder.png' className='rounded-full h-16 bg-white' onClick={()=>navigate("/")}></img>
         <div className='flex justify-center items-center hover:font-semibold hover:cursor-pointer' onClick={()=>navigate("/home")}>Problems</div>
         <div className='flex justify-center items-center hover:font-semibold hover:cursor-pointer' onClick={() => navigate("/doubts")}>Doubts</div>
         <div className='flex justify-center items-center hover:font-semibold hover:cursor-pointer text-white'>
