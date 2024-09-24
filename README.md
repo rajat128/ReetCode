@@ -1,8 +1,17 @@
 # React + Vite
+RecetCode is a web-based platform that provides a comprehensive set of coding challenges, interview practice, and resources to help developers improve their coding skills and prepare for technical interviews.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Getting Started: 
+  1)Sign Up: Create an account to access the platform.
+  2)Choose a Challenge: Select a challenge from the dashboard and start coding.
+  3)Submit Your Solution: Submit your solution and get instant feedback.
+  4)Practice and Improve: Repeat the process to improve your coding skills
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Contributing
+## ReetCode is an open-source project, and we welcome contributions from the community. If you're interested in contributing, please follow these steps:
+  1)Fork the Repository: Fork the RecetCode repository on GitHub.
+  2)Create a Branch: Create a new branch for your feature or fix.
+  3)Make Changes: Make changes to the code and commit them.
+  4)Create a Pull Request: Create a pull request to merge your changes into the main branch.
