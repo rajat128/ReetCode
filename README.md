@@ -11,7 +11,7 @@ RecetCode is a web-based platform that provides a comprehensive set of coding ch
 
 # Contributing
 ## ReetCode is an open-source project, and we welcome contributions from the community. If you're interested in contributing, please follow these steps:
-  1)Fork the Repository: Fork the RecetCode repository on GitHub.
-  2)Create a Branch: Create a new branch for your feature or fix.
-  3)Make Changes: Make changes to the code and commit them.
-  4)Create a Pull Request: Create a pull request to merge your changes into the main branch.
+  1)Fork the Repository: Fork the RecetCode repository on GitHub.<br/>
+  2)Create a Branch: Create a new branch for your feature or fix.<br/>
+  3)Make Changes: Make changes to the code and commit them.<br/>
+  4)Create a Pull Request: Create a pull request to merge your changes into the main branch.<br/>
