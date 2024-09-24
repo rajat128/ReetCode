@@ -52,14 +52,14 @@ function EachQue({}) {
         <div className='flex justify-center items-center hover:font-semibold hover:cursor-pointer' onClick={()=>navigate("/home")}>Problems</div>
         <div className='flex justify-center items-center hover:font-semibold hover:cursor-pointer' onClick={() => navigate("/doubts")}>Doubts</div>
         <div className='flex justify-center items-center hover:font-semibold hover:cursor-pointer text-white'>
-        <Menu isLazy>
-          <MenuButton as={Button} >{<img src="src\components\Profile.jpg" className='hover:cursor-pointer h-14 w-14 rounded-full'></img>}</MenuButton>
+       <Menu isLazy>
+          <MenuButton as={Button}  >{<img src="src\components\Profile.jpg" className='h-14 w-14 rounded-full'></img>}</MenuButton>
           <MenuList className="">
           
               <MenuItem
                
                 bg={ "gray.800" }
-               _hover={{
+                _hover={{
                
                   bg: "gray.700",
                 }}
