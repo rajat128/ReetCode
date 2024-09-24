@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.MenuButton:hover {
+    background-color: transparent; 
+  }
