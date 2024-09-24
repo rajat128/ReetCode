@@ -45,16 +45,13 @@ function Allquestions() {
         <div className='flex justify-center items-center hover:font-semibold hover:cursor-pointer' onClick={() => navigate("/doubts")}>Doubts</div>
         <div className='flex justify-center items-center hover:font-semibold hover:cursor-pointer text-white'>
         <Menu isLazy>
-          <MenuButton as={Button} bg="white">{<img src='https://sc0.blr1.digitaloceanspaces.com/large/860264-75615-gwqpgntllz-1512392229.jpg' className='hover:cursor-pointer h-14 w-14 rounded-full'></img>}</MenuButton>
+          <MenuButton as={Button} >{<img src='https://sc0.blr1.digitaloceanspaces.com/large/860264-75615-gwqpgntllz-1512392229.jpg' className='hover:cursor-pointer h-14 w-14 rounded-full'></img>}</MenuButton>
           <MenuList className="">
           
               <MenuItem
                
                 bg={ "gray.800" }
-                _hover={{
-               
-                  bg: "gray.700",
-                }}
+                
                onClick={logout}
                 className="text-white"
               >
