@@ -1,5 +1,5 @@
 # ReetCode
-RecetCode is a web-based platform that provides a comprehensive set of coding challenges, interview practice, and resources to help developers improve their coding skills and prepare for technical interviews.
+ReetCode is a web-based platform that provides a comprehensive set of coding challenges, interview practice, and resources to help developers improve their coding skills and prepare for technical interviews.
 <br/>
 <br/>
 
