@@ -26,7 +26,7 @@ import {
             {languages.map(([lang, version]) => (
               <MenuItem
                 key={lang}
-                color={lang === language ? ACTIVE_COLOR : "white"}
+                color={lang === language ? ACTIVE_COLOR : "gray.800"}
                 bg={lang === language ? "gray.100" : "transparent"}
                 _hover={{
                   color: ACTIVE_COLOR,
